@@ -1,5 +1,5 @@
 # Multi-Agent-CBR-Paper-Implementation
-Implementation attempt from "A Multi-agent Case-based Reasoning Intrusion Detection System Prototype" by Jakob Michael Schoenborn and Klaus-Dieter Althof. The dataset use is UNSW-NB15 Dataset, a dataset about cybersecurity to detect and categorize the melicious network.
+Implementation attempt from "A Multi-agent Case-based Reasoning Intrusion Detection System Prototype" by Jakob Michael Schoenborn and Klaus-Dieter Althof[[1]](#ref1). The dataset use is UNSW-NB15 Dataset[[2]](#ref2), a dataset about cybersecurity to detect and categorize the melicious network.
 ## Result
 Despite the attempt, the result is very different from the paper. I guess it's because of the weighting formula or maybe there some steps that I miss. My result are showing very bad result.
 ### Voting result
@@ -82,5 +82,10 @@ Even though it is random cases, try to compare with the paper
 
 
 ## References
-[J. M. Schoenborn and K.-D. Althoff, “A Multi-agent Case-Based Reasoning Intrusion Detection System Prototype,” Lecture Notes in Computer Science, pp. 359–374, 2023, doi: https://doi.org/10.1007/978-3-031-40177-0_23.](https://delegate.iccbr2023.org/res/paper_34.pdf) \
-[UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
+<a id="ref1"/>
+
+[1] [J. M. Schoenborn and K.-D. Althoff, “A Multi-agent Case-Based Reasoning Intrusion Detection System Prototype,” Lecture Notes in Computer Science, pp. 359–374, 2023, doi: https://doi.org/10.1007/978-3-031-40177-0_23.](https://delegate.iccbr2023.org/res/paper_34.pdf)
+
+<a id="ref2"/>
+
+[2] [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
