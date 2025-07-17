@@ -82,5 +82,5 @@ Even though it is random cases, try to compare with the paper
 
 
 ## References
-[J. M. Schoenborn and K.-D. Althoff, “A Multi-agent Case-Based Reasoning Intrusion Detection System Prototype,” Lecture Notes in Computer Science, pp. 359–374, 2023, doi: https://doi.org/10.1007/978-3-031-40177-0_23.](https://delegate.iccbr2023.org/res/paper_34.pdf)
+[J. M. Schoenborn and K.-D. Althoff, “A Multi-agent Case-Based Reasoning Intrusion Detection System Prototype,” Lecture Notes in Computer Science, pp. 359–374, 2023, doi: https://doi.org/10.1007/978-3-031-40177-0_23.](https://delegate.iccbr2023.org/res/paper_34.pdf) \
 [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
