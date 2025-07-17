@@ -80,6 +80,48 @@ Even though it is random cases, try to compare with the paper
 | Shellcode       | 0.00             | **0.29**          | 0.00          | **0.31**       | 0.00            | **0.30**         |
 | Worms           | **0.00**         | 0.00              | **0.00**      | 0.00           | **0.00**        | 0.00             |
 
+## Comparison with Machine Learning
+Decision Tree and Deep Learning are used for the sake of comparison. Here is the result from Decision Tree
+| Category        | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Analysis        | 0.02      | 0.06   | 0.03     | 398     |
+| Backdoor        | 0.04      | 0.09   | 0.06     | 378     |
+| DoS             | 0.41      | 0.11   | 0.18     | 2452    |
+| Exploits        | 0.59      | 0.82   | 0.69     | 6801    |
+| Fuzzers         | 0.30      | 0.46   | 0.36     | 3685    |
+| Generic         | 0.99      | 0.98   | 0.98     | 11369   |
+| Normal          | 0.94      | 0.79   | 0.86     | 22552   |
+| Reconnaissance  | 0.93      | 0.78   | 0.85     | 2089    |
+| Shellcode       | 0.40      | 0.73   | 0.51     | 243     |
+| Worms           | 0.66      | 0.64   | 0.65     | 33      |
+
+| Metric         | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Accuracy       | —         | —      | 0.77     | 50000   |
+| Macro Avg      | 0.53      | 0.54   | 0.52     | 50000   |
+| Weighted Avg   | 0.82      | 0.77   | 0.78     | 50000   |
+
+Here is the result from Deep Learning
+| Category        | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Analysis        | 0.00      | 0.00   | 0.00     | 383     |
+| Backdoor        | 0.09      | 0.00   | 0.01     | 340     |
+| DoS             | 0.60      | 0.03   | 0.06     | 2442    |
+| Exploits        | 0.54      | 0.94   | 0.68     | 6740    |
+| Fuzzers         | 0.30      | 0.56   | 0.39     | 3638    |
+| Generic         | 1.00      | 0.96   | 0.98     | 11539   |
+| Normal          | 0.97      | 0.74   | 0.84     | 22507   |
+| Reconnaissance  | 0.73      | 0.80   | 0.76     | 2130    |
+| Shellcode       | 0.33      | 0.44   | 0.38     | 250     |
+| Worms           | 0.80      | 0.13   | 0.22     | 31      |
+
+| Metric         | Precision | Recall | F1-Score | Support |
+|----------------|-----------|--------|----------|---------|
+| Accuracy       | —         | —      | 0.76     | 50000   |
+| Macro Avg      | 0.54      | 0.46   | 0.43     | 50000   |
+| Weighted Avg   | 0.82      | 0.76   | 0.76     | 50000   |
+
+From this result, turns out Decision Tree is the best one. Once again, the multi-agent implementation attempt is worse from the paper. Factors like weighting formula or missed formula might be the culprit.
 
 ## References
 <a id="ref1"/>
